@@ -37,4 +37,4 @@ Visibility: PUBLIC — REVIEW
 - Integrated SonarQube analysis.
 
 ## Notes
-The Senior Software Engineer dates conflict between uploaded CV versions. Preserve both as an unresolved discrepancy rather than choosing one.
+The updated CV establishes the Senior Software Engineer period as 2021-07 – 2022-03.
