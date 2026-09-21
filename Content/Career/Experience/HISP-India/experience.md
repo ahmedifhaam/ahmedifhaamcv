@@ -19,4 +19,4 @@ Visibility: PUBLIC — REVIEW
 - Mobile application development
 
 ## Notes
-Different CV versions use "Software Engineer" and "Consultant" for the 2018-2019 role. Confirm the official title before publishing a final CV.
+Official 2018–2019 title confirmed as Consultant Software Engineer.
