@@ -13,7 +13,7 @@ The uploaded CVs and subsequent user clarification establish the following histo
 - Relationship: subsidiary / child company of Arcadea
 - Start: 2026-05
 - End: PRESENT
-- Title: NEEDS_CONFIRMATION
+- Title: Consultant Senior Engineer
 - Documented repository scope: .NET MAUI Android application, backend/API engineering, user management, file management, knowledgebase functionality, and DevOps/onboarding responsibilities.
 
 ## Nagarro
