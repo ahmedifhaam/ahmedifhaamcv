@@ -34,4 +34,4 @@ The uploaded CVs and subsequent user clarification establish the following histo
 
 ## Remaining confirmation
 - AgCode exact job title.
-- Whether the May 2026 transition date should be recorded as exactly May 2026 or with a more precise date.
+- May 2026 transition date confirmed.
