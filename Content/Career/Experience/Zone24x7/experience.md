@@ -4,9 +4,7 @@ Visibility: PUBLIC — REVIEW
 
 ## Employment
 - Software Engineer: 2019-07 – 2021-07
-- Senior Software Engineer: date conflict in uploaded CVs
-  - Version A: 2021-07 – 2022-03
-  - Version B: 2021-08 – 2022-02
+- Senior Software Engineer: 2021-07 – 2022-03 (established value from the updated CV supplied by the user).
 
 ## Documented responsibilities
 - Conducted R&D to explore technologies and contribute to design decisions.
