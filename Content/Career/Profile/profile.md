@@ -3,7 +3,7 @@
 Visibility: PUBLIC
 
 ## Name
-Ahmed Ifhaam
+Mohomed Faiz Ahmed Ifhaam
 
 ## Professional headline
 Consultant Senior Software Engineer
