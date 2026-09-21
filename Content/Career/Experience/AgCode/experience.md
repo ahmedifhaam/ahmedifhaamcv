@@ -4,7 +4,7 @@ Visibility: NEEDS_REVIEW
 
 ## Employment
 - Title: Consultant Senior Engineer
-- Start: 2026-05 (absorbed from Arcadea after approximately two years)
+- Start: 2026-05 (confirmed; absorbed from Arcadea after approximately two years)
 - End: PRESENT
 - Relationship: Subsidiary / child company of Arcadea
 
