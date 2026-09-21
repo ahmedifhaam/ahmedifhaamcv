@@ -26,7 +26,7 @@ B.Sc. Hons in Management and Information Technology, University of Kelaniya, Fac
 ## Public links
 - GitHub: https://github.com/ahmedifhaam
 - LinkedIn: https://linkedin.com/in/ahmedifhaam
-- Portfolio: NEEDS_CONFIRMATION
+- Portfolio: https://ahmedifhaam.github.io/ahmedifhaam/
 
 ## Public contact
 - Email: ahmedifhaam1@gmail.com
