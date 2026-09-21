@@ -25,12 +25,13 @@ Where versions disagree, the repository records the discrepancy rather than sele
 
 ## Known unresolved items
 
-- Current employer/title after the Arcadea period.
-- Arcadea exact title and end date.
-- Zone24x7 Senior Software Engineer exact dates.
-- HISP India exact 2018–2019 title.
-- Preferred public address/contact details.
-- Whether the full legal name should be used publicly.
+- AgCode title confirmed: Consultant Senior Engineer.
+- Arcadea title/end month confirmed.
+- Zone24x7 Senior Software Engineer dates confirmed: 2021-07 – 2022-03.
+- HISP India 2018–2019 title confirmed: Consultant Software Engineer.
+- Public contact details confirmed.
+- Public name confirmed: Mohomed Faiz Ahmed Ifhaam.
+- AgCode achievement details intentionally deferred for a future discussion.
 
 ## Important
 
