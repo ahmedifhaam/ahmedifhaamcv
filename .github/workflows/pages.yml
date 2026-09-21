@@ -64,8 +64,7 @@ jobs:
             exit 0
           fi
           git commit -m "build: update CV PDF"
-          git fetch origin main
-          git rebase origin/main
+          git pull --rebase --strategy-option=ours origin main
           git push origin HEAD:main
 
       - name: Setup Pages
