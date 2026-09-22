@@ -13,30 +13,37 @@ After approximately two years with the parent company, Ahmed was absorbed into i
 
 ## Role progression and work
 
-### .NET MAUI / Android
+### .NET MAUI / application architecture
 - Joined as a .NET full-stack developer and initially led the Android/.NET MAUI team.
-- Worked on a complex mobile application where the product mockups could not be directly mapped to the available .NET MAUI components at the time.
-- Designed and implemented a custom layout and abstraction layer to provide a reusable foundation for future features.
-- The framework included custom drawers, panes, and pages capable of hosting other pages.
-- This custom UI architecture was developed over approximately 1.5 years before being handed over to the wider team.
+- Designed and implemented a custom page/navigation and layout abstraction because the application's requirements could not be mapped directly to the available .NET MAUI components.
+- The architecture supported multiple panes, dynamically hostable pages, stacked page navigation, and layered drawers, while abstracting the underlying navigation and visibility management from feature developers.
+- Personally owned the architecture and implementation; there was no separate technical reviewer for this work.
+- The custom architecture became the standard navigation foundation across the application except for the login flow.
+- Developed the mobile UI foundation over approximately 1.5 years before handing it over to the wider team.
 
-### Backend and Angular maintenance
-- Moved into .NET backend development and maintenance of an older Angular application.
-- The Angular application dynamically generated large portions of its pages from database entries, contributing to performance challenges.
-- Worked on application performance, coding standards, and code-path optimization.
-- Worked across the full stack to reduce unnecessary loops and conditional logic.
-- Contributed to security fixes.
-- Worked on Angular build/performance optimization. A documented investigation identified severe build-performance and memory issues; one safe optimization removed eager LoginModule and DxDashboardControlModule imports from AppModule while retaining required module-level imports.
+### Backend engineering and legacy Angular
+- Moved into .NET backend development and maintenance of an older Angular application, regularly working across frontend, API/service, and data-access layers.
+- Diagnosed Angular performance problems through code inspection, profiling, and build analysis.
+- Identified excessive DOM updates caused by API-driven processing inside loops and reworked rendering/data-loading behavior using virtual scrolling, lazy loading, caching, reusable components, and a controlled loading interaction.
+- A high-volume screen that became unresponsive around 1,000 cards was subsequently able to support 100,000+ cards without loading all data into the DOM at once.
+- Diagnosed a backend data-integrity issue involving records being dropped across multiple services by tracing logs and debugging execution flow.
+- Identified repeated repository/database calls inside a processing loop and, during live debugging, observed that many retrieved values were reusable; redesigned the flow around prefetched data/lookups.
+- Reworked persistence from destructive delete-and-reinsert behavior to scoped upsert/orphan handling with validation safeguards.
+- Introduced a repository-level scoped execution abstraction and implementation for transaction/retry handling, removing direct database-context access from the provider and making the capability reusable across the generic provider architecture.
+- Implemented backend and frontend changes across the full request path, including security fixes, code-path optimization, and legacy-system feature development.
+- Independently implemented the final two new features end-to-end across the relevant frontend and backend layers, enabling continued feature development in the legacy system.
+- Influenced testing practices and reusable engineering patterns within the team.
 
-### AI-augmented engineering automation
-- During the later part of the Arcadea period, began developing AI-augmented workflows for software-engineering automation.
-- One example is an automated SonarQube issue-fixing workflow using a custom shell script and a Claude session.
-- The workflow asks the developer for a SonarQube task ID, creates an isolated worktree, and analyzes whether the selected issues are concentrated in the same file or represent similar issues across multiple files.
-- For same-file issues, the workflow creates unit and UAT tests intended to provide at least 85% coverage of the current file before remediation.
-- For similar issues across multiple files, the workflow processes the files individually.
-- The remediation follows a TDD red-to-green workflow.
-- After the fixes, the workflow invokes a code-review skill, creates a single commit, and leaves the developer to raise and obtain approval for the PR.
-- The workflow eliminated the need for five developers to spend approximately one day per week on recurring SonarQube issue fixing.
+### AI-augmented development
+- Developed and used a structured AI-augmented engineering workflow for approximately 1.5 years spanning requirement analysis, specification refinement, planning, ATDD-oriented implementation, unit-test improvement, code/specification review loops, verification-scenario generation, Playwright test development, test review, and PR refinement.
+- Separately developed an AI-augmented SonarQube remediation workflow using shell scripting, Claude, isolated worktrees, test generation, TDD, and code review.
+- The SonarQube workflow leaves PR creation and approval under developer control.
+- The SonarQube workflow eliminated the need for five developers to spend approximately one day per week on recurring SonarQube issue fixing.
+
+## Technical leadership
+- Responsible for architecture, technical decisions, and engineering standards within the team.
+- Personally identified and implemented solutions for the major frontend and backend improvements above; team technical-lead review applied to Angular and backend changes.
+- Contributed to testing practices and reusable repository/engineering patterns.
 
 ## Technologies explicitly documented
 - .NET MAUI
@@ -44,8 +51,10 @@ After approximately two years with the parent company, Ahmed was absorbed into i
 - Android
 - Angular
 - Backend APIs
+- EF Core / repositories
 - SonarQube
 - Claude
 - Shell scripting
 - Unit testing / UAT
 - TDD
+- Playwright
