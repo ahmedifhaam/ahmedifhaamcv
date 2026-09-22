@@ -24,10 +24,10 @@ Visibility: PUBLIC — REVIEW
 ## Key projects
 
 ### Gen AI Chat Bot
-- Developed a bot application that allows users to upload files and use AI to generate answers based on document content.
-- Focused on backend development and supporting workflows.
-- Built backend functionality for user management, file management, and knowledgebase management.
-- Technologies documented: .NET, Azure, Bot Framework, ChatGPT, DALL-E, Azure Storage.
+- Developed backend functionality for a document-based Gen AI chatbot, including user management, file management, and knowledgebase management.
+- Built the backend using Clean Architecture and CQRS.
+- Hosted the API on Azure App Service and integrated the bot through Microsoft Bot Framework with Microsoft Teams.
+- Technologies documented: .NET, Azure App Service, Azure, Bot Framework, Microsoft Teams, ChatGPT, DALL-E, Azure Storage.
 
 ### Bed Management System
 - Developed an application for managing patient beds in care homes.
