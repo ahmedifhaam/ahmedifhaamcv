@@ -51,4 +51,4 @@ Ahmed was absorbed into AgCode after approximately two years with Arcadea, its p
 - Playwright
 
 ## Notes
-The public CV combines Arcadea and AgCode as one continuous role: Arcadea (AgCode), Consultant Senior Software Engineer → Consultant Senior Engineer, May 2024–Present.
+The public CV combines Arcadea and AgCode as one continuous role: Arcadea (AgCode), Consultant Senior Engineer, May 2024–Present.
