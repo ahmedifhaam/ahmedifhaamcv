@@ -3,7 +3,7 @@
 Visibility: NEEDS_REVIEW
 
 ## Employment
-- Title: Consultant Senior Software Engineer
+- Title: Consultant Senior Engineer
 - Start: 2024-05
 - End: 2026-05
 - Work context: Parent company; Canada (Remote) appears in the uploaded CVs.
